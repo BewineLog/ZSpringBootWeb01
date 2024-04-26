@@ -18,7 +18,6 @@ public class MainController {
 	public String index() {
 		
 		System.out.println("[ MainController.index() start........]");//<== 
-		//==> web.xml : <welcome-file>~~~.html or ~~.jsp</welcome-fle> :  ̾ .
 		return "/user/logon.jsp";
 		
 	}
