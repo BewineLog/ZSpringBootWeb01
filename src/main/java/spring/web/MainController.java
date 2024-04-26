@@ -17,7 +17,7 @@ public class MainController {
 	@GetMapping("/")
 	public String index() {
 		
-		System.out.println("[ MainController.index() start........]");//<== 
+		System.out.println("[ MainController.index() start........]!");//<== 
 		return "/user/logon.jsp";
 		
 	}
